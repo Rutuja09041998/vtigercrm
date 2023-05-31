@@ -1,0 +1,25 @@
+SELECT CLASS:
+-it is concrete class used to handle dropdown.
+-it may be select single list dropdown or multi list dropdown.
+-dropdown can be handled using 
+   i) By using select class
+  ii) by using sendKeys
+-Methods of select class:
+1.isMultiple()==>
+-return type if boolean.
+-used to check dropdown is sigle list or multi list.
+-if multilist it return true and if it is single list it will return false.
+
+2.getOptions()==>
+-return type list of web element.
+-
+3.select By Visible Text()==>
+-
+4.Select By Value()
+5.Select By Index()
+6.get First Selected Option() //mostly used for multilist Dropdown 
+
+-Steps of select class:
+ 1.Create object for select(Select s= new Select()).
+ 2.in select constructor you have to pass argument as targeted element(Select(...)).
+ 3.with reference variable call the non static methods(S.isMultiple();).
