@@ -1,0 +1,78 @@
+              ABSOLUTE PATH:Text path
+
+Mobiles & Tablets  html/body/div/div/div[2]/div/div/div[2]/a/div[2]
+Electronics        html/body/div/div/div[2]/div/div/div[3]/a/div[2]
+TVs & Appliances   html/body/div/div/div[2]/div/div/div[4]/a/div[2]
+Fashion            html/body/div/div/div[2]/div/div/div[5]/a/div[2]
+Beauty             html/body/div/div/div[2]/div/div/div[6]/a/div[2]
+Home & furniture   html/body/div/div/div[2]/div/div/div[7]/a/div[2]
+Flights            html/body/div/div/div[2]/div/div/div[8]/a/div[2]
+Grocery            html/body/div/div/div[2]/div/div/div[9]/a/div[2]
+     
+                   image 
+
+Mobiles & Tablets  html/body/div/div/div[2]/div/div/div[2]/a/div[1]/div/img
+Electronics        html/body/div/div/div[2]/div/div/div[3]/a/div[1]/div/img
+TVs & Appliances   html/body/div/div/div[2]/div/div/div[4]/a/div[1]/div/img
+Fashion            html/body/div/div/div[2]/div/div/div[5]/a/div[1]/div/img
+Beauty             html/body/div/div/div[2]/div/div/div[6]/a/div[1]/div/img
+Home & furniture   html/body/div/div/div[2]/div/div/div[7]/a/div[1]/div/img
+Flights            html/body/div/div/div[2]/div/div/div[8]/a/div[1]/div/img
+Grocery            html/body/div/div/div[2]/div/div/div[9]/a/div[1]/div/img
+
+            RELATIVE XPATH: Text
+XPATH BY CO RELATIVE
+
+Mobiles & Tablets  //div[2]/a/div[2]
+Electronics        //div[3]/a/div[2]
+TVs & Appliances   //div[4]/a/div[2]
+Fashion            //div[5]/a/div[2]
+Beauty             //div[6]/a/div[2]
+Home & furniture   //div[7]/a/div[2]
+Flights            //div[8]/a/div[2]
+Grocery            //div[9]/a/div[2]
+
+            image
+
+Mobiles & Tablets  //div[2]/a/div[1]/div/img
+Electronics        //div[3]/a/div[1]/div/img
+TVs & Appliances   //div[4]/a/div[1]/div/img
+Fashion            //div[5]/a/div[1]/div/img
+Beauty             //div[6]/a/div[1]/div/img
+Home & furniture   //div[7]/a/div[1]/div/img
+Flights            //div[8]/a/div[1]/div/img
+Grocery            //div[9]/a/div[1]/div/img
+
+
+  XPATH BY ATTRIBUTE
+//img[@alt='Mobiles & Tablets']
+//img[@alt='Electronics']
+//img[@alt='TVs & Appliances']
+//img[@alt='Fashion']
+//img[@alt='Beauty']
+//img[@alt='Home & Furniture']
+//img[@alt='Flights']
+//img[@alt='Grocery']
+
+
+XPATH BY TEXT
+Grocery      //div[text()='Grocery']
+Mobile       //div[text()='Mobiles']   
+Appliances   //div[text()='Appliances']
+Travel       //div[text()='Travel']
+Top Offers   //div[text()='Top Offers']
+
+   INDEPENDENT & DEPENDENT
+Buddhist train---fixed element & buddhisttrain@irctc.com----dynamic element
+//td[text()='Buddhist train']/..//td[@data-title='mail']
+Buddhist train---fixed element & +919717648718----dynamic element
+//td[text()='Buddhist train']/..//td[@data-title='helpline']
+
+//div[text()='realme C33 2023 (Aqua Blue, 64 GB)']/../.. 
+//div[text()='realme C33 2023 (Aqua Blue, 64 GB)']/../..//div[@class='_30jeq3 _1_WHN1']
+
+//div[text()='realme C33 2023 (Night Sea, 64 GB)']/../..
+//div[text()='realme C33 2023 (Night Sea, 64 GB)']/../..//div[@class='_30jeq3 _1_WHN1']
+
+  XPATH BY GROUP INDEX
+(//div[text()='realme 9 5G SE (Azure Glow, 128 GB)'])[1]/../..//div[@class='_30jeq3 _1_WHN1']
